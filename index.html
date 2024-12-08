@@ -3,9 +3,23 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>EVASION</title>
-   <link rel="stylesheet" href="style.css">
-</head>
+   <meta name="description" content="Découvrez EVASION, votre magazine dédié au tourisme de luxe, à l'innovation technologique, et à la durabilité. Articles, tendances, et conseils exclusifs.">
+    <meta name="keywords" content="tourisme de luxe, innovation, durabilité, voyages, actualités, tendances">
+    <meta name="author" content="Evasion Team">
+    <meta property="og:title" content="Evasion - Magazine Tourisme de Luxe">
+    <meta property="og:description" content="Explorez les nouvelles tendances en tourisme de luxe, innovation et durabilité.">
+    <meta property="og:url" content="https://themoana.github.io/evasion/">
+    <title>EVASION | Magazine Tourisme de Luxe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
+   <link rel="icon" href="EVASION.ico" type="image/x-icon" sizes="17x17">
+<link rel="icon" href="evasion-16x16.png" sizes="16x16">
+<link rel="icon" href="evasion-32x32.png" sizes="32x32">
+
+<!-- Optionnel : Favicon en SVG -->
+<link rel="icon" href="evasion.svg" type="image/svg+xml">
+
+   </head>
 
 <!-- Début HTML  -->
 
@@ -13,9 +27,11 @@
 <!-- Bar Nav -->
    <nav id="navContainer">
       <div class="logo">
-         <img src="images/logo.png" alt="Logo du journal">
+         <a href="index.html">
+             <img src="EVASION.png" alt="Logo du journal">
+         </a>
          <h1 id="nomJournal">Evasion</h1>
-      </div>
+     </div>     
       <ul id="navBarList">
          <!-- <li><a href="#theme1">Durabilité</a></li>
          <li><a href="#theme2">Tzchnologies</a></li>
@@ -23,22 +39,23 @@
          <li><a href="#theme4">Expériences</a></li> -->
       </ul>
       <button>S'abonner</button>
+      <img class="avatar" src="images/Friendly Young Woman Portrait.jpeg" alt="avatar">
+         
    </nav>
 
   <!-- // Banniere // -->
    <header id="heroBanner">
       <h1 id="nomJournal">Evasion</h1>
       <h2 id="phraseAccroche">Réenchantons le tourisme</h2>
-      <p id="texteAppelAction">Inscrivez-vous à notre newsletter pour ne rien manquer !</p> 
       <div id="themesContainer" class="themes"></div>
    </header>
 
    <!-- Main article  -->
-   <section id="articlePrincipal">
+   <section id="articlePrincipal"data-aos="fade-down" data-aos-duration="1500">
       <h2>Article principal</h2>
       <div>
          <h3 id="titrePrincipal">Titre principal</h3>
-         <p id="themePrincipal">Thème</p>
+         <h4 id="themePrincipal">Thème </h4>
          <p id="datePrincipal">Date</p>
          <p id="descriptionPrincipal">Description de l'article principal</p>
          <img id="imagePrincipal" src="" alt="Image principale">
@@ -46,18 +63,44 @@
    </section>
 
     <!-- Articles secondaires -->
-   <section id="articlesContainer">
+   <section >
       <h2>Autres articles</h2>
+      <div id="articlesContainer"></div>
    </section>
 
-   <!-- Auteurs -->
-   <section id="auteursContainer">
+   <!-- Auteurs -->   
+   <section>
       <h2>Découvrez notre équipe</h2>
+      <div  id="auteursContainer"></div>
+  
    </section>
 
-   
+   <!-- Newsletter  -->
+
+   <section>
+   <div id="openModal">
+      <button>Cliquez juste ici, pour avoir une vision d'avance. </button>
+      </div>
+
+  <div class="modal" id="newsletterModal">
+   <div>
+      
+   </div>
+    <div class="modal-content">
+      <span class="close-button" id="closeModal">&times;</span>
+      <h2>Stay Updated!</h2>
+      <p>Recevez nos dernières actualités et informations, sur les innovations qui nous redonnent envie de nous évader.</p>
+      <form id="newsletterForm">
+        <input type="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
    <footer>
-      <p>© Evasion 2024</p>
+      <p>© EVASION 2024 - Tous droits réservés</p>
    </footer>
 
 
