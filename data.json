@@ -68,19 +68,19 @@
         }
       ],
       "auteurs": [
-        { "image": "Confident Young Woman with Twisted Dreadlocks.jpeg",
+        { "image": "images/Confident Young Woman with Twisted Dreadlocks.jpeg",
           "prenom": "Aurélie",
           "typeExperience": "Consultante en tourisme de luxe",
           "presentation": "Experte en stratégie et innovation, je conseille les marques sur la transformation de l'expérience client haut de gamme."
         },
         {
-          "image": "Creative Home Office.jpeg",
+          "image": "images/Creative Home Office.jpeg",
           "prenom": "Paul",
           "typeExperience": "Journaliste voyages",
           "presentation": "Avec une passion pour les voyages d'exception, je partage mes découvertes et analyse les tendances du luxe."
         },
         {
-          "image": "Cheerful Bohemian Professional.jpeg",
+          "image": "images/Cheerful Bohemian Professional.jpeg",
           "prenom": "Sophie",
           "typeExperience": "Spécialiste en durabilité",
           "presentation": "Je mets en lumière les initiatives qui allient luxe et respect de l'environnement."

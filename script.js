@@ -8,8 +8,7 @@ function getData() {
      })
      .then((data) => {
 
-
-
+      
        // Traitez les données comme vous le souhaitez
        console.log('Données récupérées du fichier JSON :', data);
 
@@ -132,8 +131,6 @@ function afficherArticles(array, container) {
   }
 
   
-
-
 //  SCROLL
 
   let header = document.querySelector("nav");
